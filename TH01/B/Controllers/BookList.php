@@ -13,7 +13,7 @@ class BookList {
 
     public function sortByAuthor() {
         usort($this->books, function ($a, $b) {
-            return strcmp($a->getAuthor(), $b->getAuthor());
+            return strcmp($a->getAuthor(), $b->getAuthor());  //so sánh hai chuỗi phân biệt chữ hoa chữ thường
         });
     }
 

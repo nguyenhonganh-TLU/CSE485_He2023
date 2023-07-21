@@ -7,4 +7,22 @@ $arrs = array("Italy" => "Rome", "Luxembourg" => "Luxembourg", "Belgium" =>
 Kingdom" => "London", "Cyprus" => "Nicosia", "Lithuania" => "Vilnius", "Czech
 Republic" => "Prague", "Estonia" => "Tallin", "Hungary" => "Budapest", "Latvia" =>
 "Riga", "Malta" => "Valetta", "Austria" => "Vienna", "Poland" => "Warsaw");
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bai 4</title>
+    </head>
+    <body>
+        <?php
+            foreach($arrs as $key =>$value){
+
+        ?>
+                <p>Thủ đô của <?=$key?> là <?=$value?>
+        <?php
+        }
+    ?>
+    </body>
+</html>
 
